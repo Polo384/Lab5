@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full review-Paul CHERUBIN</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="excel.html">Excel</a></li>
+            </ul>
+    </header>
+    <main>
+        <form id="excel-form" name="excel-form">
+            <label for="numbers">Enter numbers separated by sapces</label>
+            <input type="text" id="numbers" name="numbers">
+            <label for="operation">Select operation</label>
+            <input type="radio" id="sum" name="operation" value="sum" checked>
+            <label for="sum">AutoSum</label>
+            <input type="radio" id="average" name="operation" value="average">
+            <label for="average">Average</label>
+            <input type="radio" id="min" name="operation" value="min">
+            <label for="min">Min</label>
+            <input type="radio" id="max" name="operation" value="max">
+            <label for="max">Max</label>
+            <button type="submit">Calculate</button>
+        </form>
+        <div id="output">
+            
+        </div>
+        <div id="changeTheme">
+            <button id="changeThemeButton1">Light Theme</button>
+            <button id="changeThemeButton2">Dark Theme</button>
+        </div>
+    </main>
+    <footer>
+        <p>
+            ILAC & EFREI Partnership - HTML, CSS and Javascript Main Lab-work - Paul CHERUBIN
+        </p>
+    </footer>
+    <script src="js/script.js" defer></script>
+</body>
+</html>
